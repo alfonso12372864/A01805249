@@ -1,0 +1,15 @@
+donas = int(input("Ingresa la cantidad de donas: "))
+docenas = donas // 12
+print("Con", donas, "donas puedes hacer", docenas, "docenas completas.")
+
+num1 = int(input("Ingresa el primer número: "))
+num2 = int(input("Ingresa el segundo número: "))
+cociente = num1 // num2
+residuo = num1 % num2
+print(num1, "dividido entre", num2, "es", cociente, "con un residuo de", residuo)
+
+segundos = int(input("Ingresa la cantidad de segundos: "))
+horas = segundos // 3600
+minutos = (segundos % 3600) // 60
+seg_rest = segundos % 60
+print(segundos, "segundos son", horas, "horas,", minutos, "minutos y", seg_rest, "segundos")
